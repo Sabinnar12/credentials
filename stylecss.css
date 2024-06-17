@@ -1,12 +1,4 @@
-.page-content {
-  max-width: 700px;
-  font-family: "Arimo", sans-serif
-  margin: 0 auto;
-}
 
-.page-content p {
-  line-height: 2;
-}
 
 .popup-overlay {
   background: rgba(0, 0, 0, 0.4);
@@ -28,7 +20,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, calc(-50% + 50px));
-  font-family: "Raleway", sans-serif;
+  font-family: "Arimo", sans-serif
   color: #fff;
   padding: 12px 0;
   box-shadow: 0 6px 55px -10px rgba(0, 0, 0, 0.7);
