@@ -6,7 +6,6 @@ let remainingTime = 5;
 let allowedToSkip = false;
 let popupTimer;
 
-
 const showAd = () => {
   popupOverlay.classList.add("active");
   popupTimer = setInterval(() => {
@@ -23,7 +22,6 @@ const showAd = () => {
 
 const skipAd = () => {
   popupOverlay.classList.remove("active");
-  createPopupCookie();
 };
 
 skipButton.addEventListener("click", () => {
@@ -38,3 +36,5 @@ const startTimer = () => {
     window.removeEventListener("scroll", startTimer);
   }
 };
+
+window.addEventListener("scroll", startTimer);
