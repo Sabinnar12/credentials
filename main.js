@@ -6,13 +6,6 @@ let remainingTime = 5;
 let allowedToSkip = false;
 let popupTimer;
 
-const createPopupCookie = () => {
-  let expiresDays = 30;
-  let date = new Date();
-  date.setTime(date.getTime() + expiresDays * 24 * 60 * 60 * 1000);
-  let expires = "expires=" + date.toUTCString();
-  document.cookie = `popupCookie=true; ${expires}; path=/;`;
-};
 
 const showAd = () => {
   popupOverlay.classList.add("active");
@@ -45,7 +38,3 @@ const startTimer = () => {
     window.removeEventListener("scroll", startTimer);
   }
 };
-
-if (!document.cookie.match(/^(.*;)?\s*popupCookie\s*=\s*[^;]+(.*)?$/)) {
-  window.addEventListener("scroll", startTimer);
-}
