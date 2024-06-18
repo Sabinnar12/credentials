@@ -26,10 +26,10 @@
     background-position: center;
 }
 
-.front  { transform: rotateY(  0deg) translateZ(50px); background-image: url('https://www.santarosaforward.com/img/managed/Image/111/file.jpg'); }
-.back   { transform: rotateY(180deg) translateZ(50px); background-image: url('https://www.careergirls.org/wp-content/uploads/2018/05/400x400-test-image-for-website.jpg'); }
-.left   { transform: rotateY(-90deg) translateZ(50px); background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2e/Kzecjr3a_400x400.jpg'); }
-.right  { transform: rotateY( 90deg) translateZ(50px); background-image: url('https://d319i1jp2i9xq6.cloudfront.net/upload/images/40606/40606_p.jpg?20150107041042'); }
+.front  { transform: rotateY(  0deg) translateZ(50px); background-image: url('https://raw.githubusercontent.com/Sabinnar12/credentials/main/images/Siddhartha.jpg'); }
+.back   { transform: rotateY(180deg) translateZ(50px); background-image: url('https://raw.githubusercontent.com/Sabinnar12/credentials/main/images/esewa.jpg'); }
+.left   { transform: rotateY(-90deg) translateZ(50px); background-image: url('https://raw.githubusercontent.com/Sabinnar12/credentials/main/images/SBI.jpg'); }
+.right  { transform: rotateY( 90deg) translateZ(50px); background-image: url('https://raw.githubusercontent.com/Sabinnar12/credentials/main/images/khalti.jpg'); }
 
 @keyframes rotate {
     from { transform: rotateY(0deg); }
